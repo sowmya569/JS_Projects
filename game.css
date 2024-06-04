@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #ff6392;
+}
+.box{
+    height:20vh ;
+    width:20vh;
+    background-color: #25CED1;
+    color: black;
+    border-radius: 10px;
+    font-size: 5vh;
+}
+.reset{
+    height:5vh;
+    width:10vh;
+    margin:20px;
+    background-color: gray;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 375px;
+    height: 375px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+#heading{
+    padding: 10px;
+    margin: 20px;
+}
+.winner{
+    margin:3vh;
+}
+.hide{
+    display: none;
+}
